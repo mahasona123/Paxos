@@ -2,6 +2,8 @@ package Class;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Learner {
     private int id;
@@ -25,3 +27,4 @@ public class Learner {
         return learnedValue;
     }
 }
+

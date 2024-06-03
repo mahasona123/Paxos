@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Network {
-    private static List<Proposer> proposers = new ArrayList<>();
-    private static List<Acceptor> acceptors = new ArrayList<>();
-    private static List<Learner> learners = new ArrayList<>();
+    private static  List<Proposer> proposers = new ArrayList<>();
+    private static  List<Acceptor> acceptors = new ArrayList<>();
+    private static  List<Learner> learners = new ArrayList<>();
 
     public static void addProposer(Proposer proposer) {
         proposers.add(proposer);

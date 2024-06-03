@@ -1,4 +1,5 @@
 import Class.*;
+
 public class Main {
     public static void main(String[] args) {
         // Create and add acceptors
@@ -12,17 +13,15 @@ public class Main {
         }
 
         // Create and add proposers
-        Proposer proposer1 = new Proposer(1, 88);
+        Proposer proposer1 = new Proposer(1, 42);
+        Proposer proposer2 = new Proposer(2, 24);
+        Proposer proposer3 = new Proposer(3, 36);
         Network.addProposer(proposer1);
-
-        Proposer proposer2 = new Proposer(2, 56);
         Network.addProposer(proposer2);
-
-        Proposer proposer3 = new Proposer(3, 7);
         Network.addProposer(proposer3);
 
         // Start the proposal process
-        //proposer1.propose();
+        proposer1.propose();
         proposer2.propose();
         proposer3.propose();
     }
